@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="output"></div>
+    <script type="text/javascript">
+      let result;
+      let age = 20;
+
+      if (age >= 18) {
+        result = 'You are an adult.';
+      } else {
+        result = 'You are a minor.';
+      }
+      document.getElementById('output').innerText = result;
+    </script>
+  </body>
+</html>
